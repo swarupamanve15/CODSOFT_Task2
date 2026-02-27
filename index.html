@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Swarupa | CSE Student</title>
+
+<style>
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family: 'Segoe UI', sans-serif;
+}
+
+body{
+    background:#0f172a;
+    color:white;
+}
+
+header{
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    padding:20px 60px;
+    background:#111827;
+}
+
+header h1{
+    color:#38bdf8;
+}
+
+nav a{
+    text-decoration:none;
+    color:white;
+    margin-left:25px;
+    font-size:16px;
+}
+
+nav a:hover{
+    color:#38bdf8;
+}
+
+.hero{
+    height:90vh;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    text-align:center;
+    padding:20px;
+}
+
+.hero h2{
+    font-size:48px;
+    margin-bottom:20px;
+}
+
+.hero span{
+    color:#38bdf8;
+}
+
+.hero p{
+    font-size:18px;
+    margin-bottom:30px;
+}
+
+.btn{
+    padding:12px 25px;
+    border:none;
+    background:#38bdf8;
+    color:#0f172a;
+    font-weight:bold;
+    border-radius:30px;
+    cursor:pointer;
+    text-decoration:none;
+}
+
+.btn:hover{
+    background:white;
+}
+
+.projects{
+    padding:80px 60px;
+    background:#1e293b;
+    text-align:center;
+}
+
+.projects h2{
+    margin-bottom:50px;
+    font-size:36px;
+}
+
+.project-container{
+    display:flex;
+    gap:30px;
+    justify-content:center;
+    flex-wrap:wrap;
+}
+
+.project-card{
+    background:#0f172a;
+    padding:25px;
+    width:300px;
+    border-radius:12px;
+    box-shadow:0 8px 20px rgba(0,0,0,0.4);
+    transition:0.3s;
+}
+
+.project-card:hover{
+    transform:translateY(-10px);
+}
+
+.project-card h3{
+    color:#38bdf8;
+    margin-bottom:15px;
+}
+
+.skills{
+    padding:80px 60px;
+    text-align:center;
+}
+
+.skills h2{
+    margin-bottom:40px;
+}
+
+.skill-list{
+    display:flex;
+    justify-content:center;
+    gap:30px;
+    flex-wrap:wrap;
+}
+
+.skill{
+    background:#1e293b;
+    padding:15px 25px;
+    border-radius:20px;
+}
+
+.contact{
+    padding:80px 60px;
+    background:#1e293b;
+    text-align:center;
+}
+
+.contact h2{
+    margin-bottom:20px;
+}
+
+footer{
+    text-align:center;
+    padding:20px;
+    background:#111827;
+}
+
+@media(max-width:768px){
+    header{
+        flex-direction:column;
+        gap:10px;
+    }
+}
+</style>
+</head>
+
+<body>
+
+<header>
+    <h1>Swarupa  Manve</h1>
+    <nav>
+        <a href="#">Home</a>
+        <a href="#projects">Projects</a>
+        <a href="#skills">Skills</a>
+        <a href="#contact">Contact</a>
+    </nav>
+</header>
+
+<section class="hero">
+    <div>
+        <h2>Hi, I'm <span>Swarupa</span></h2>
+        <p>Second Year CSE Student | Web Developer | Passionate Learner </p>
+        <a href="#projects" class="btn">View My Work</a>
+    </div>
+</section>
+
+<section class="projects" id="projects">
+    <h2>My Projects</h2>
+
+    <div class="project-container">
+        <div class="project-card">
+            <h3>Student Attendance System</h3>
+            <p>Automated attendance monitoring and analytics system.</p>
+        </div>
+
+        <div class="project-card">
+            <h3>Women SOS Safety App</h3>
+            <p>Emergency alert system with real-time location tracking.</p>
+        </div>
+
+        <div class="project-card">
+            <h3>Calculator Application</h3>
+            <p>Calculator developed to perform basic arithmetic operations efficiently.</p>
+        </div>
+         <div class="project-card">
+            <h3>Recipe Book (GUI Based)</h3>
+            <p>A graphical user interface-based recipe management system that allows users to view and organize recipes easily.</p>
+        </div>
+    </div>
+</section>
+
+<section class="skills" id="skills">
+    <h2>Skills</h2>
+    <div class="skill-list">
+        <div class="skill">JAVA</div>
+        <div class="skill">HTML</div>
+        <div class="skill">CSS</div>
+        <div class="skill">C Programming</div>
+        <div class="skill">Python</div>
+        <div class="skill">Problem Solving</div>
+    </div>
+</section>
+
+<section class="contact" id="contact">
+    <h2>Let's Connect</h2>
+    <p>Email:swarupamanve15@gmail.com</p>
+    <p>Phone: +91 9699603243</p>
+    <p>Location: Borivali, Mumbai</p>
+</section>
+
+<footer>
+    <p>© 2026 Swarupa | All Rights Reserved</p>
+</footer>
+
+</body>
+</html>
